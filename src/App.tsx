@@ -26,6 +26,23 @@ function App() {
             <p>Check out my portfolioand my resume</p>
             <button className="btn btn-outline-primary">my Resume`</button>
           </div>
+          <div className="card">
+            <h3>Technologies I do</h3>
+            <div className="d-flex flex-row">icons, logos, names of tech</div>
+            <div className="d-flex flex-row">icons, logos, names of tech</div>
+          </div>
+          <div className="card">
+            <h2>Portfolio</h2>
+            <h4>Projects</h4>
+            <div className="d-flex flex-row">
+              <div>project 1</div>
+              <div>project 2</div>
+            </div>
+            <div className="d-flex flex-row">
+              <div>project 3</div>
+              <div>project 4</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
