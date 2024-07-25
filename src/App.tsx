@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
 
         {/* main section */}
         <div id="technologies" className=" d-flex flex-column main-section">
-          <div className="card">
+          <div className="card d-flex  m-5">
             <h1>Viktor Ilie</h1>
             <h4>Full Stack Developer</h4>
-            <p className="p-5 m-5">
+            <p className="">
               I'm a software developer with passion to work on both frontend and
               backend. Specialized in react and developing my skills in C#. With
               experience for complex scalable web apps.
@@ -24,7 +25,9 @@ function App() {
               <b>Want to know how I may help your project?</b>
             </p>
             <p>Check out my portfolioand my resume</p>
-            <button className="btn btn-outline-primary">my Resume`</button>
+            <div className=" justify-content-center align-items-center">
+              <button className="btn-portfolio">view my Portfolio</button>
+            </div>
           </div>
           <div className="card">
             <h3>Technologies I do</h3>
