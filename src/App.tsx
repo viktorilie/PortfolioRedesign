@@ -13,7 +13,7 @@ function App() {
 
         {/* main section */}
         <div id="technologies" className=" d-flex flex-column main-section">
-          <div className="card d-flex  m-5">
+          <div className="card d-flex m-3 p-5">
             <h1>Viktor Ilie</h1>
             <h4>Full Stack Developer</h4>
             <p className="">
@@ -29,12 +29,12 @@ function App() {
               <button className="btn-portfolio">view my Portfolio</button>
             </div>
           </div>
-          <div className="card">
+          <div className="card d-flex m-3 p-5">
             <h3>Technologies I do</h3>
             <div className="d-flex flex-row">icons, logos, names of tech</div>
             <div className="d-flex flex-row">icons, logos, names of tech</div>
           </div>
-          <div className="card">
+          <div className="card d-flex m-3 p-5">
             <h2>Portfolio</h2>
             <h4>Projects</h4>
             <div className="d-flex flex-row">
