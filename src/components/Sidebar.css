@@ -12,5 +12,7 @@
 }
 
 .sidebarimage {
+  /* padding: 15px; */
+  margin: 25px;
   width: 200px;
 }
