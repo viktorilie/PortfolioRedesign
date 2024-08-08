@@ -1,4 +1,3 @@
-import App from "../App";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -11,24 +10,29 @@ const Sidebar = () => {
         />
       </div>
       <div className="sidenavlinks">
-        <div className="list-group  list-none">
-          <a
-            href="#"
-            className="list-group-item list-group-item-action list-group-item-secondary">
-            About me
-          </a>
-          <a className="list-group-item list-group-item-action list-group-item-secondary">
-            Skills
-          </a>
-          <a className="list-group-item list-group-item-action list-group-item-secondary">
-            Portflio
-          </a>
-          <a className="list-group-item list-group-item-action list-group-item-secondary">
-            Resume
-          </a>
-          <a className="list-group-item list-group-item-action list-group-item-secondary">
-            Contact me
-          </a>
+        <div className="list-group ">
+          <ul className="navbar-nav flex-column text-start">
+            <li className="nav-item">
+              <a className="nav-link active" href="index.html">
+                <i className="fas fa-home fa-fw me-2"></i>About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="index.html">
+                <i className="fas fa-home fa-fw me-2"></i>Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="index.html">
+                <i className="fas fa-home fa-fw me-2"></i>Resume
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="index.html">
+                <i className="fas fa-home fa-fw me-2"></i>Contact me
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="icon-links"></div>
