@@ -10,68 +10,10 @@
   scrollbar-color: rgba(0, 0, 0, 0.2) #508c9b;
   scrollbar-width: thin;
 }
+
 .main-section {
-  margin-left: 250px;
+  margin-left: 285px;
+  /* height: 100vh; */
   /* background-color: gray; */
-  height: 100vh;
   /* width: auto; */
 }
-
-.card {
-  background-color: rgba(153, 153, 153, 0.3);
-  padding: 35px;
-  margin: 25px;
-  /* width: auto; */
-  border-radius: 2px;
-  border: solid black 1px;
-  box-shadow: 2px 2px 4px;
-}
-
-.button-section {
-  width: 500px;
-}
-
-.btn-portfolio {
-  background-color: #508c9b;
-  text-align: center;
-  border-radius: 4px;
-  border: 0cap;
-  color: #fafafa;
-  padding: 6px;
-  margin: 6px;
-  width: 175px;
-  height: 38px;
-}
-.btn-portfolio:hover {
-  background-color: #758694;
-  color: black;
-  transform: scale(1.02);
-}
-
-.btn-resume {
-  background-color: #758694;
-  text-align: center;
-  border-radius: 4px;
-  border: 0cap;
-  color: black;
-  padding: 6px;
-  margin: 6px;
-  width: 175px;
-  height: 38px;
-}
-.btn-resume:hover {
-  background-color: #508c9b;
-  color: #fafafa;
-  transform: scale(1.02);
-}
-
-/* .card-title:before {
-  content: "";
-  display: inline-block;
-  width: 1px;
-  height: 100%;
-  background: #508c9b;
-  position: absolute;
-  left: 0;
-  top: 0;
-} */
