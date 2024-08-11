@@ -10,7 +10,7 @@ export interface CardProps {
 const Card: React.FC<CardProps> = (props: CardProps) => {
   return (
     <div className="card d-flex m-3 p-5">
-      <div className="card w-75">
+      <div className="card ">
         <div className="card-body">{props.children}</div>
       </div>
     </div>

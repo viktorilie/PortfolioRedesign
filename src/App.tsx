@@ -1,6 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
+// import { RiArrowRightWideLine } from "react-icons/ri";
+import { BsCaretRightFill } from "react-icons/bs";
 
 function App() {
   return (
@@ -26,7 +28,10 @@ function App() {
             </p>
             <p>Check out my portfolioand my resume</p>
             <div className=" justify-content-center align-items-center">
-              <button className="btn-portfolio">view my Portfolio</button>
+              <button className="btn-portfolio">
+                <BsCaretRightFill className="mx-1" />
+                View my Portfolio
+              </button>
             </div>
           </div>
           <div className="card d-flex m-3 p-5">
