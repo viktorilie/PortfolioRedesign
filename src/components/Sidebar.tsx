@@ -29,17 +29,19 @@ const Sidebar = () => {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link " href="#">
-              <BsLaptopFill className="mx-2" size={20} />
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item">
             <a className="nav-link" href="#">
               <BsBriefcaseFill className="mx-2" size={20} />
               Skills
             </a>
           </li>
+
+          <li className="nav-item">
+            <a className="nav-link " href="#">
+              <BsLaptopFill className="mx-2" size={20} />
+              Portfolio
+            </a>
+          </li>
+
           <li className="nav-item">
             <a className="nav-link " href="#">
               <BsFileEarmarkCode className="mx-2" size={20} />

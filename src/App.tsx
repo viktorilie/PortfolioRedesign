@@ -13,9 +13,10 @@ function App() {
           <Sidebar />
         </div>
 
-        {/* 02-main section */}
+        {/* 02-main section #AboutMe */}
         <div className="d-flex flex-column  main-section">
           <Main />
+
           {/* cards */}
           <div className="d-flex flex-row">
             {/* card-1 */}
@@ -25,6 +26,7 @@ function App() {
               <p className="d-flex flex-row">icons, logos, names of tech</p>
             </div>
           </div>
+          {/* card-2 */}
           <div className="card d-flex m-3 p-5">
             <h2>Portfolio</h2>
             <h4>Projects</h4>
@@ -38,9 +40,8 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* card-2 */}
       </div>
+      <div className="d-flex flex-column  main-section">Portfolio</div>
     </>
   );
 }
