@@ -1,4 +1,9 @@
 import "./Sidebar.css";
+import { BsFilePersonFill } from "react-icons/bs";
+import { BsLaptopFill } from "react-icons/bs";
+import { BsBriefcaseFill } from "react-icons/bs";
+import { BsFileEarmarkCode } from "react-icons/bs";
+import { BsEnvelopePaperFill } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -13,23 +18,34 @@ const Sidebar = () => {
         <div className="list-group ">
           <ul className="navbar-nav flex-column text-start">
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
-                <i className="fas fa-home fa-fw me-2"></i>About Me
+              <a className="nav-link active ps-5" href="#">
+                <BsFilePersonFill className="mx-2" size={20} />
+                About Me
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link ps-5" href="#">
+                <BsLaptopFill className="mx-2" size={20} />
+                Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
-                <i className="fas fa-home fa-fw me-2"></i>Skills
+              <a className="nav-link ps-5" href="#">
+                <BsBriefcaseFill className="mx-2" size={20} />
+                Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
-                <i className="fas fa-home fa-fw me-2"></i>Resume
+              <a className="nav-link ps-5" href="#">
+                <BsFileEarmarkCode className="mx-2" size={20} />
+                Resume
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
-                <i className="fas fa-home fa-fw me-2"></i>Contact me
+              <a className="nav-link active ps-5" href="index.html">
+                <BsEnvelopePaperFill className="mx-2" size={20} />
+                Contact me
               </a>
             </li>
           </ul>
