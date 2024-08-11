@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
 // import { RiArrowRightWideLine } from "react-icons/ri";
 import { BsCaretRightFill } from "react-icons/bs";
+import { BsFileEarmarkCode } from "react-icons/bs";
 
 function App() {
   return (
@@ -32,14 +33,20 @@ function App() {
                 <BsCaretRightFill className="mx-1" />
                 View my Portfolio
               </button>
-              <button className="btn-resume">View my Resume</button>
+              <button className="btn-resume">
+                <BsFileEarmarkCode className="mx-2" size={20} />
+                View my Resume
+              </button>
             </div>
           </div>
+
+          {/* card */}
           <div className="card d-flex m-3 p-5">
-            <h3>Technologies I do</h3>
-            <div className="d-flex flex-row">icons, logos, names of tech</div>
-            <div className="d-flex flex-row">icons, logos, names of tech</div>
+            <p className="card-title fs-3 fw-bold">Technologies I do</p>
+            <p className="d-flex flex-row">icons, logos, names of tech</p>
+            <p className="d-flex flex-row">icons, logos, names of tech</p>
           </div>
+          {/* card */}
           <div className="card d-flex m-3 p-5">
             <h2>Portfolio</h2>
             <h4>Projects</h4>

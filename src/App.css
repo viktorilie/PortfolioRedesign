@@ -64,3 +64,14 @@
   color: #fafafa;
   transform: scale(1.02);
 }
+
+/* .card-title:before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background: #508c9b;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
