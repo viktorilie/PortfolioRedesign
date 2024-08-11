@@ -14,7 +14,7 @@ const Sidebar = () => {
     <>
       <div className="d-flex justify-content-center align-items-center ">
         <img
-          className="sidebarimage shadow-lg"
+          className="sidebarimage shadow-lg rounded"
           src="../public/images/IMG_0013.JPG"
         />
       </div>
