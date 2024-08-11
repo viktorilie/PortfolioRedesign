@@ -11,7 +11,7 @@ function App() {
           <Sidebar />
         </div>
 
-        {/* main section */}
+        {/* 02-main section */}
         <div id="technologies" className=" d-flex flex-column main-section">
           <div className="card d-flex m-3 p-5">
             <h1>Viktor Ilie</h1>

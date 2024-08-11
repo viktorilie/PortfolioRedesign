@@ -4,6 +4,9 @@ import { BsLaptopFill } from "react-icons/bs";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { BsFileEarmarkCode } from "react-icons/bs";
 import { BsEnvelopePaperFill } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -14,44 +17,65 @@ const Sidebar = () => {
           src="../public/images/IMG_0013.JPG"
         />
       </div>
-      <div className="sidenavlinks">
-        <div className="list-group ">
-          <ul className="navbar-nav flex-column text-start">
-            <li className="nav-item">
-              <a className="nav-link active ps-5" href="#">
-                <BsFilePersonFill className="mx-2" size={20} />
-                About Me
-              </a>
-            </li>
+      <hr className=" mx-3" />
+      <div className="ps-3">
+        <ul className="navbar-nav flex-column text-start">
+          <li className="nav-item">
+            <a className="nav-link active ps-5" href="#">
+              <BsFilePersonFill className="mx-2" size={20} />
+              About Me
+            </a>
+          </li>
 
-            <li className="nav-item">
-              <a className="nav-link ps-5" href="#">
-                <BsLaptopFill className="mx-2" size={20} />
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link ps-5" href="#">
-                <BsBriefcaseFill className="mx-2" size={20} />
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link ps-5" href="#">
-                <BsFileEarmarkCode className="mx-2" size={20} />
-                Resume
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active ps-5" href="index.html">
-                <BsEnvelopePaperFill className="mx-2" size={20} />
-                Contact me
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li className="nav-item">
+            <a className="nav-link ps-5" href="#">
+              <BsLaptopFill className="mx-2" size={20} />
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link ps-5" href="#">
+              <BsBriefcaseFill className="mx-2" size={20} />
+              Skills
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link ps-5" href="#">
+              <BsFileEarmarkCode className="mx-2" size={20} />
+              Resume
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active ps-5" href="index.html">
+              <BsEnvelopePaperFill className="mx-2" size={20} />
+              Contact me
+            </a>
+          </li>
+        </ul>
       </div>
-      <div className="icon-links"></div>
+      <hr className=" mx-3" />
+
+      <div className="icon-links list-inline justify-content-center align-items-center px-2 mx-auto">
+        <li className="list-inline-item">
+          <a className="nav-link" href="https://twitter.com/red_dev_vi">
+            <BsTwitterX className="mx-2" size={20} />
+          </a>
+        </li>
+
+        <li className="list-inline-item">
+          <a
+            className="nav-link"
+            href="https://www.linkedin.com/in/viktor-ilie/">
+            <BsLinkedin className="mx-2" size={20} />
+          </a>
+        </li>
+        <li className="list-inline-item">
+          <a className="nav-link" href="https://github.com/viktorilie">
+            <BsGithub className="mx-2" size={20} />
+          </a>
+        </li>
+      </div>
+      <hr className=" mx-3" />
     </>
   );
 };
