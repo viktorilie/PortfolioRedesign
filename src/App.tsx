@@ -26,12 +26,13 @@ function App() {
             <p>
               <b>Want to know how I may help your project?</b>
             </p>
-            <p>Check out my portfolioand my resume</p>
+            <p>Check out my portfolio and my resume</p>
             <div className=" justify-content-center align-items-center">
               <button className="btn-portfolio">
                 <BsCaretRightFill className="mx-1" />
                 View my Portfolio
               </button>
+              <button className="btn-resume">View my Resume</button>
             </div>
           </div>
           <div className="card d-flex m-3 p-5">
