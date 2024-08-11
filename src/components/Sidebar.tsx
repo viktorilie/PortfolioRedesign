@@ -7,6 +7,7 @@ import { BsEnvelopePaperFill } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { BsFillSendFill } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -19,34 +20,34 @@ const Sidebar = () => {
       </div>
       <hr className=" mx-3" />
       <div className="ps-3">
-        <ul className="navbar-nav flex-column text-start">
+        <ul className="navbar-nav flex-column text-start ps-5">
           <li className="nav-item">
-            <a className="nav-link active ps-5" href="#">
+            <a className="nav-link " href="#">
               <BsFilePersonFill className="mx-2" size={20} />
               About Me
             </a>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link ps-5" href="#">
+            <a className="nav-link " href="#">
               <BsLaptopFill className="mx-2" size={20} />
               Portfolio
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link ps-5" href="#">
+            <a className="nav-link" href="#">
               <BsBriefcaseFill className="mx-2" size={20} />
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link ps-5" href="#">
+            <a className="nav-link " href="#">
               <BsFileEarmarkCode className="mx-2" size={20} />
               Resume
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active ps-5" href="index.html">
+            <a className="nav-link " href="#">
               <BsEnvelopePaperFill className="mx-2" size={20} />
               Contact me
             </a>
@@ -75,7 +76,14 @@ const Sidebar = () => {
           </a>
         </li>
       </div>
-      <hr className=" mx-3" />
+      <hr className="mx-3" />
+      <div className="py-2">
+        <div className=" px-5 mx-auto">
+          <button type="submit" className="btn btn-outline-light w-100">
+            <BsFillSendFill className="" /> Hire me
+          </button>
+        </div>
+      </div>
     </>
   );
 };
