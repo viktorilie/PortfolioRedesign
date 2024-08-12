@@ -1,15 +1,11 @@
 import { BsCaretRightFill } from "react-icons/bs";
 import { BsFileEarmarkCode } from "react-icons/bs";
-import "./Main.css";
+import "../App.css";
 
-export interface MainProps {
-  className?: string;
-  style?: React.CSSProperties;
-}
 const Main = () => {
   return (
     <>
-      <div id="technologies" className=" d-flex flex-row ">
+      <div id="main" className="d-flex flex-row ">
         <div className="card d-flex m-3 p-5">
           <h1>Viktor Ilie</h1>
           <h4>Full Stack Developer</h4>

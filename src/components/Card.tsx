@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "../App.css";
 export interface CardProps {
   className?: string;
   title?: string;

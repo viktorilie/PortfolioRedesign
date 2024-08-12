@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "../App.css";
 import { BsFilePersonFill } from "react-icons/bs";
 import { BsLaptopFill } from "react-icons/bs";
 import { BsBriefcaseFill } from "react-icons/bs";
