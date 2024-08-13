@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <div className="d-flex flex-row ">
+      <div className="d-flex flex-row">
         {/* 01 sidebar */}
         <div className="aside d-flex flex-column">
           <Sidebar />

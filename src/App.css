@@ -83,3 +83,20 @@
   color: #fafafa;
   transform: scale(1.02);
 }
+
+/* @media screen and (max-width: 767px) {
+  .main {
+    width: 400px;
+  }
+}
+
+@media screen and(min-width:768px) and (max-width: 1023px) {
+  .main {
+    width: 750px;
+  }
+}
+@media screen and(min-width:1024px) {
+  .main {
+    width: 1350px;
+  }
+} */

@@ -6,19 +6,30 @@ const Main = () => {
   return (
     <>
       <div id="main" className="d-flex flex-row ">
-        <div className="card d-flex m-3 p-5">
-          <h1>Viktor Ilie</h1>
-          <h4>Full Stack Developer</h4>
-          <p className="">
-            I'm a software developer with passion to work on both frontend and
-            backend. Specialized in react and developing my skills in C#. With
-            experience for complex scalable web apps.
-          </p>
-          <p>
-            <b>Want to know how I may help your project?</b>
-          </p>
-          <p>Check out my portfolio and my resume</p>
-          <div className=" justify-content-center align-items-center">
+        <div className="card d-flex flex-column m-3 p-5">
+          <div className="">
+            <h1>Viktor Ilie</h1>
+            <h5>
+              <b>Full Stack Developer</b>
+            </h5>
+          </div>
+          <div>
+            <p>
+              I'm a software developer with passion to work on both frontend and
+              backend. Specialized in react and developing my skills in C#. With
+              experience for complex scalable web apps.
+            </p>
+          </div>
+          <div>
+            <p>
+              <b>Want to know how I may help your project?</b>
+            </p>
+          </div>
+          <div>
+            <p>Check out my portfolio and my resume</p>
+          </div>
+
+          <div className="justify-content-center align-items-center">
             <button className="btn-portfolio">
               <BsCaretRightFill className="mx-1" />
               View my Portfolio
