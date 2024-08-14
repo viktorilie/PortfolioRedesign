@@ -1,3 +1,4 @@
+/*<--------- 01-sidebar --------->*/
 .aside {
   position: fixed;
   left: 0;
@@ -17,8 +18,9 @@
   width: 195px;
 }
 
+/* <-- 02-main container --> */
 .right-container {
-  margin-left: 285px;
+  margin-left: 300px;
   /* height: 100vh; */
   /* background-color: gray; */
   /* width: auto; */

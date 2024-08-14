@@ -5,7 +5,7 @@ import "../App.css";
 const Main = () => {
   return (
     <>
-      <div id="main" className="d-flex flex-row ">
+      <div id="main" className="d-flex flex-row">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="">
             <h1>Viktor Ilie</h1>
@@ -20,16 +20,14 @@ const Main = () => {
               experience for complex scalable web apps.
             </p>
           </div>
-          <div>
+          <div className="py-0 d-flex ">
             <p>
               <b>Want to know how I may help your project?</b>
+              <br />
+              Check out my portfolio and my resume
             </p>
           </div>
-          <div>
-            <p>Check out my portfolio and my resume</p>
-          </div>
-
-          <div className="justify-content-center align-items-center">
+          <div className="align-items-center jus">
             <button className="btn-portfolio">
               <BsCaretRightFill className="mx-1" />
               View my Portfolio
