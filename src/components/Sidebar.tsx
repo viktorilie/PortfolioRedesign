@@ -18,40 +18,41 @@ const Sidebar = () => {
           src="../public/images/IMG_0013.JPG"
         />
       </div>
+      <h3 className="text-center">Viktor Ilie</h3>
       <hr className=" mx-3" />
-      <div className="ps-3">
-        <ul className="navbar-nav flex-column text-start ps-5">
+      <div className="ps-5">
+        <ul className="navbar-nav flex-column">
           <li className="nav-item">
-            <a className="nav-link " href="#">
-              <BsFilePersonFill className="mx-2" size={20} />
-              About Me
+            <a className="nav-link" href="#">
+              <BsFilePersonFill className="mx-2" size={24} />
+              <span className="d-none d-lg-inline">About Me</span>
             </a>
           </li>
 
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <BsBriefcaseFill className="mx-2" size={20} />
-              Skills
+              <BsBriefcaseFill className="mx-2" size={24} />
+              <span className="d-none d-lg-inline">Skills</span>
             </a>
           </li>
 
           <li className="nav-item">
             <a className="nav-link " href="#">
-              <BsLaptopFill className="mx-2" size={20} />
-              Portfolio
+              <BsLaptopFill className="mx-2" size={24} />
+              <span className="d-none d-lg-inline">Portfolio</span>
             </a>
           </li>
 
           <li className="nav-item">
             <a className="nav-link " href="#">
-              <BsFileEarmarkCode className="mx-2" size={20} />
-              Resume
+              <BsFileEarmarkCode className="mx-2" size={24} />
+              <span className="d-none d-lg-inline">Resume</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link " href="#">
-              <BsEnvelopePaperFill className="mx-2" size={20} />
-              Contact me
+              <BsEnvelopePaperFill className="mx-2" size={24} />
+              <span className="d-none d-lg-inline">Contact me</span>
             </a>
           </li>
         </ul>
