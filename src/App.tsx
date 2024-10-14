@@ -1,9 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
-import Main from "./components/Main";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -15,11 +12,7 @@ function App() {
         </div>
 
         {/* 02 main-section #AboutMe */}
-        <div className="d-flex flex-column justify-content-center right-container">
-          <Main />
-          <Skills />
-          <Portfolio />
-        </div>
+        <div className="d-flex flex-column justify-content-center right-container"></div>
       </div>
     </>
   );

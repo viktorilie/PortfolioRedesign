@@ -2,10 +2,10 @@ import { BsCaretRightFill } from "react-icons/bs";
 import { BsFileEarmarkCode } from "react-icons/bs";
 import "../App.css";
 
-const Main = () => {
+const MainCard = () => {
   return (
     <>
-      <div id="main" className="d-flex flex-row">
+      <div id="main" className="d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="">
             <h1>Viktor Ilie</h1>
@@ -43,4 +43,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainCard;
