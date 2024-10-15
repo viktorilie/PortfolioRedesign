@@ -31,7 +31,7 @@ const Skills = () => {
 
           <div className="d-flex flex-row justify-content-around align-items-center pt-4 ">
             <div className="row">
-              <SiHtml5 className="my-1" size={50} />
+              <SiHtml5 className="y-1" size={50} />
               <SiCss3 className="my-1" size={50} />
               <SiBootstrap className="my-1" size={50} />
               <SiFigma className="my-1" size={50} />

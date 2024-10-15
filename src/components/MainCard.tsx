@@ -29,7 +29,11 @@ const MainCard = () => {
             </p>
           </div>
           <div className="align-items-center">
-            <button className="btn-portfolio">
+            <button
+              className="btn-portfolio"
+              onClick={() => {
+                window.location.href = "#portfolio";
+              }}>
               <BsCaretRightFill className="mx-1" />
               View my Portfolio
             </button>
