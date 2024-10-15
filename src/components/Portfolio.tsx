@@ -10,15 +10,15 @@ const Portfolio = () => {
         </div>
 
         {/* // Add a new project here */}
-        <div className="d-flex flex-row py-3">
-          <div className="d-flex flex-column">
+        <div className="d-flex flex-row py-3 ">
+          <div className="d-flex flex-column shadow">
             <img
               src="https://placehold.co/250"
-              alt="project1"
+              alt="project name 1"
               className="img-fluid rounded w-100"
             />
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column shadow">
             <h6 className="fw-bold p-2">Project 1</h6>
             <p className="p-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto
@@ -29,14 +29,14 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="d-flex flex-row py-3">
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column shadow">
             <img
               src="https://placehold.co/250"
               alt="project1"
               className="img-fluid rounded w-100"
             />
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column shadow">
             <h6 className="fw-bold p-2">Project 2</h6>
             <p className="p-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto
@@ -48,14 +48,14 @@ const Portfolio = () => {
         </div>
 
         <div className="d-flex flex-row py-3">
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column shadow">
             <img
               src="https://placehold.co/250"
               alt="project1"
               className="img-fluid rounded w-100"
             />
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column shadow">
             <h6 className="fw-bold p-2">Project 2</h6>
             <p className="p-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto
