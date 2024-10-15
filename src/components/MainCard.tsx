@@ -5,7 +5,7 @@ import "../App.css";
 const MainCard = () => {
   return (
     <>
-      <div id="main" className="d-flex flex-row container">
+      <div className="d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="">
             <h1>Viktor Ilie</h1>
