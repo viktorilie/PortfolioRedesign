@@ -1,15 +1,14 @@
-.side {
-  /* position: fixed; */
-  /* left: 0; */
-  /* top: 0; */
-  /* height: 100vh; */
-  /* width: 260px; */
+.sidebar {
   background: #508c9b;
   color: #dadada;
   overflow-y: auto;
   scrollbar-color: rgba(0, 0, 0, 0.2) #508c9b;
   scrollbar-width: thin;
   grid-area: sidebar;
+  height: 100vh;
+  /* overflow-y: auto; */
+  font-size: 14px;
+  /* box-shadow: 1px 1px 1px black; */
 }
 
 .nav-link:hover {
@@ -19,4 +18,19 @@
 
 .nav-link svg {
   transition: transform 0.8s ease; /* Transition for the icon */
+}
+
+.sidebarimage {
+  /* padding: 15px; */
+  margin: 25px;
+  max-width: 135px;
+}
+
+.card {
+  background-color: #e4e4e4;
+  padding: 35px;
+  margin: 25px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px;
+  width: auto;
 }

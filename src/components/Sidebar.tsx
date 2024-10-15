@@ -13,7 +13,7 @@ import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <>
-      <div className="side">
+      <nav className="sidebar">
         <div className="d-flex justify-content-center align-items-center ">
           <img
             className="sidebarimage shadow-lg rounded"
@@ -95,7 +95,7 @@ const Sidebar = () => {
             </button>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

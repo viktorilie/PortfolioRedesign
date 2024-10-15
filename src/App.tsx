@@ -9,9 +9,8 @@ function App() {
   return (
     <>
       <div className="layout">
-        <nav>
-          <Sidebar />
-        </nav>
+        <Sidebar />
+
         <main>
           <MainCard />
           <Skills />

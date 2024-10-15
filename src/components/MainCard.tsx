@@ -1,6 +1,6 @@
 import { BsCaretRightFill } from "react-icons/bs";
 import { BsFileEarmarkCode } from "react-icons/bs";
-import "../App.css";
+import "./MainCard.css";
 
 const MainCard = () => {
   return (

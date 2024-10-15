@@ -1,4 +1,4 @@
-import "../App.css";
+import "./Skills.css";
 import { SiReact } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiDotnet } from "react-icons/si";
