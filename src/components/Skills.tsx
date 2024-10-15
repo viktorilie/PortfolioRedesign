@@ -15,7 +15,7 @@ import { SiAzuredevops } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <div className="d-flex flex-row container">
+      <div id="skills" className="d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="d-flex flex-row">
             <h4>Technologies I do</h4>
@@ -30,24 +30,24 @@ const Skills = () => {
           </div>
 
           <div className="d-flex flex-row justify-content-around align-items-center pt-4 ">
-            <div className="col-3">
-              <SiHtml5 className="mx-1" size={50} />
-              <SiCss3 className="mx-1" size={50} />
-              <SiBootstrap className="mx-1" size={50} />
-              <SiFigma className="mx-1" size={50} />
+            <div className="row">
+              <SiHtml5 className="my-1" size={50} />
+              <SiCss3 className="my-1" size={50} />
+              <SiBootstrap className="my-1" size={50} />
+              <SiFigma className="my-1" size={50} />
             </div>
-            <div className="col-3">
-              <SiJavascript className="mx-1" size={50} />
-              <SiReact className="mx-1" size={50} />
-              <SiGit className="mx-1" size={50} />
-              <SiAzuredevops className="mx-1" size={50} />
+            <div className="row">
+              <SiJavascript className="my-1" size={50} />
+              <SiReact className="my-1" size={50} />
+              <SiGit className="my-1" size={50} />
+              <SiAzuredevops className="my-1" size={50} />
             </div>
 
-            <div className="col-3">
-              <SiDotnet className="mx-1" size={50} />
-              <SiMicrosoftsqlserver className="mx-1" size={50} />
-              <SiCsharp className="mx-1" size={50} />
-              <VscVscode className="mx-1" size={50} />
+            <div className="row">
+              <SiDotnet className="my-1" size={50} />
+              <SiMicrosoftsqlserver className="my-1" size={50} />
+              <SiCsharp className="my-1" size={50} />
+              <VscVscode className="my-1" size={50} />
             </div>
           </div>
         </div>
