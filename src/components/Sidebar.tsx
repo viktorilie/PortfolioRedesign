@@ -13,61 +13,57 @@ import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <>
-      <nav className="sidebar">
-        <div className="d-flex justify-content-center align-items-center ">
+      <div
+        className="sidebar d-none d-md-flex flex-column p-3 text-dark shadow-lg border-right position-sticky vh-100"
+        style={{ width: "250px", top: "0" }}>
+        <div>
           <img
             className="sidebarimage shadow-lg rounded"
             src="../public/images/IMG_0013.JPG"
           />
         </div>
-        <h3 className="text-center">Viktor Ilie</h3>
-        <hr className=" mx-3" />
-
-        {/* navlinks and icons */}
-        <div className="ps-3">
-          <ul className="navbar-nav flex-column">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <BsFilePersonFill className=" mx-3" size={24} />
-                <small className="">About Me</small>
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <BsBriefcaseFill className=" mx-3" size={24} />
-                <small className="">Skills</small>
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <BsLaptopFill className=" mx-3" size={24} />
-                <small className="">Portfolio</small>
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <BsFileEarmarkCode className=" mx-3" size={24} />
-                <small className="">Resume</small>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <BsEnvelopePaperFill className=" mx-3" size={24} />
-                <small className="">Contact me</small>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <hr className=" mx-3" />
-
+        <h2 className="mb-4 text-center">Viktor Ilie</h2>
+        <h6 className="mb-4 text-center">web developer</h6>
+        <div className="mb-2" />
+        <hr />
+        <ul className="nav navbar-nav flex-column px-2">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <BsFilePersonFill className=" mx-3" size={24} />
+              <text className="">About Me</text>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <BsBriefcaseFill className=" mx-3" size={24} />
+              <text className="">Skills</text>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <BsFileEarmarkCode className=" mx-3" size={24} />
+              <text className="">Resume</text>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <BsLaptopFill className=" mx-3" size={24} />
+              <text className="">Portfolio</text>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <BsEnvelopePaperFill className=" mx-3" size={24} />
+              <text className="">Contact me</text>
+            </a>
+          </li>
+        </ul>
+        <hr />
         {/* social media links */}
-        <div className="icon-links list-inline justify-content-center align-items-center px-1 mx-1">
+        <div className="list-inline mx-1">
           <li className="list-inline-item">
             <a className="nav-link" href="https://twitter.com/red_dev_vi">
-              <BsTwitterX className="mx-2" size={24} />
+              <BsTwitterX className="mx-3" size={24} />
             </a>
           </li>
 
@@ -75,27 +71,27 @@ const Sidebar = () => {
             <a
               className="nav-link"
               href="https://www.linkedin.com/in/viktor-ilie/">
-              <BsLinkedin className="mx-2" size={24} />
+              <BsLinkedin className="mx-3" size={24} />
             </a>
           </li>
           <li className="list-inline-item">
             <a className="nav-link" href="https://github.com/viktorilie">
-              <BsGithub className="mx-2" size={24} />
+              <BsGithub className="mx-3" size={24} />
             </a>
           </li>
         </div>
-        <hr className="mx-3" />
+        <hr />
         <div className="py-3">
-          <div className="px-4 mx-auto">
+          <div className="px-3">
             <button
               type="submit"
-              className="btn btn-outline-light w-100 hireme-button">
+              className="btn btn-outline-light w-100 hireMe-button">
               <BsFillSendFill />
               <small>Hire me</small>
             </button>
           </div>
         </div>
-      </nav>
+      </div>
     </>
   );
 };
