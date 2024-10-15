@@ -12,7 +12,7 @@ import { SiMicrosoftsqlserver } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <div className="d-flex flex-row container">
+      <div className=" skills d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="d-flex flex-row">
             <h4>Technologies I do</h4>

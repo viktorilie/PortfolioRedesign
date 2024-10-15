@@ -3,11 +3,11 @@
 @media (min-width: 480px) {
   .layout {
     display: grid;
-    grid-template-rows: 4rem auto auto auto;
-    grid-template-columns: 10rem auto;
+    grid-template-rows: 4rem auto;
+    grid-template-columns: 12rem auto;
     grid-template-areas:
       "sidebar main"
-      "sidebar skills "
+      "sidebar skills"
       "sidebar portfolio"
       "sidebar footer ";
   }
