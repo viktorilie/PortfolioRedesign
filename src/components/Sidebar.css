@@ -10,8 +10,9 @@
 
 .nav-link:hover {
   color: black; /* Change color on hover */
-  transform: scale(1.05); /* Scale up on hover */
-  transition: transform 0.3s ease; /* Transition for the scaling */
+  transform: scale(1.03); /* Scale up on hover */
+  transition: transform 0.6s ease; /* Transition for the scaling */
+  text-transform: uppercase;
 }
 
 .sidebarimage {

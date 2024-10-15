@@ -35,20 +35,20 @@ const Sidebar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#skills">
               <BsBriefcaseFill className="mx-3" size={24} />
               <text className="">Skills</text>
             </a>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#portfolio">
               <BsLaptopFill className="mx-3" size={24} />
               <text className="">Portfolio</text>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#resume">
               <BsFileEarmarkCode className="mx-3" size={24} />
               <text className="">Resume</text>
             </a>

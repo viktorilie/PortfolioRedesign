@@ -2,7 +2,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio container">
+    <div id="portfolio" className="portfolio container">
       <div className="card d-flex flex-column m-3 p-5">
         <h3 className="">Portfolio</h3>
         <div className="d-flex flex-row pb-5 pt-2 ">
