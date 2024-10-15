@@ -7,17 +7,14 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <div className="d-flex flex-row justify-content-center">
-        {/* 01 sidebar */}
-        <div className="side d-flex flex-column col-sm-2">
+      <div className="layout">
+        <nav>
           <Sidebar />
-        </div>
-
-        {/* 02 main-section #AboutMe */}
-        <div className="d-flex flex-column justify-content-center right-contain col-sm-10">
+        </nav>
+        <main>
           <MainCard />
           <Skills />
-        </div>
+        </main>
       </div>
     </>
   );
