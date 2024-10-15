@@ -8,11 +8,14 @@ import { SiHtml5 } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiMicrosoftsqlserver } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { SiCsharp } from "react-icons/si";
+import { SiAzuredevops } from "react-icons/si";
 
 const Skills = () => {
   return (
     <>
-      <div className=" skills d-flex flex-row container">
+      <div className="d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
           <div className="d-flex flex-row">
             <h4>Technologies I do</h4>
@@ -21,43 +24,30 @@ const Skills = () => {
             <p>
               Full stack developer specializing in C# .Net applications, with
               Bootstrap and React for UI implementation. Below is a quick
-              overview of my main technical skill sets
-              <br /> and technologies I use.
+              overview of my main technical skill set, the tools, languages, and
+              technologies I use.
             </p>
           </div>
 
-          <p className="d-flex flex-row">icons, logos, names of tech</p>
-          <div className="d-flex flex-md-row flex-column justify-content-around align-items-center">
-            <div>
-              <SiHtml5 size={50} />
+          <div className="d-flex flex-row justify-content-around align-items-center pt-4 ">
+            <div className="col-3">
+              <SiHtml5 className="mx-1" size={50} />
+              <SiCss3 className="mx-1" size={50} />
+              <SiBootstrap className="mx-1" size={50} />
+              <SiFigma className="mx-1" size={50} />
             </div>
-            <div>
-              <SiCss3 size={50} />
-            </div>
-            <div>
-              <SiBootstrap size={50} />
-            </div>
-            <div>
-              <SiJavascript size={50} />
-            </div>
-            <div>
-              <SiReact size={50} />
+            <div className="col-3">
+              <SiJavascript className="mx-1" size={50} />
+              <SiReact className="mx-1" size={50} />
+              <SiGit className="mx-1" size={50} />
+              <SiAzuredevops className="mx-1" size={50} />
             </div>
 
-            <div>
-              <SiFigma size={50} />
-            </div>
-
-            <div>
-              <SiDotnet size={50} />
-            </div>
-            <div>
-              <SiMicrosoftsqlserver size={50} />
-            </div>
-            <div>
-              <div>
-                <SiGit size={50} />
-              </div>
+            <div className="col-3">
+              <SiDotnet className="mx-1" size={50} />
+              <SiMicrosoftsqlserver className="mx-1" size={50} />
+              <SiCsharp className="mx-1" size={50} />
+              <VscVscode className="mx-1" size={50} />
             </div>
           </div>
         </div>

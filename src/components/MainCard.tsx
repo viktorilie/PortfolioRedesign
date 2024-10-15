@@ -7,7 +7,7 @@ const MainCard = () => {
     <>
       <div className="d-flex flex-row container">
         <div className="card d-flex flex-column m-3 p-5">
-          <div className="">
+          <div>
             <h1>Viktor Ilie</h1>
             <h5>
               <b>Full Stack Developer</b>
