@@ -2,21 +2,16 @@
   background: #508c9b;
   color: #dadada;
   /* overflow-y: auto; */
-  /* scrollbar-color: rgba(0, 0, 0, 0.2) #508c9b; */
-  /* scrollbar-width: thin; */
+  scrollbar-color: rgba(0, 0, 0, 0.2) #508c9b;
+  scrollbar-width: thin;
   /* height: 100vh; */
-  /* overflow-y: auto; */
   /* font-size: 16px; */
-  /* box-shadow: 1px 1px 1px black; */
 }
 
 .nav-link:hover {
   color: black; /* Change color on hover */
-  transform: scale(1.01); /* Scale up on hover */
-}
-
-.nav-link svg {
-  transition: transform 0.8s ease; /* Transition for the icon */
+  transform: scale(1.05); /* Scale up on hover */
+  transition: transform 0.3s ease; /* Transition for the scaling */
 }
 
 .sidebarimage {

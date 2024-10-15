@@ -1,14 +1,14 @@
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer sticky-bottom">
-      <footer>
-        <p>
-          inspired by the tech comunity of twitter | Viktor Ilie &copy; 2024 |
-          All Rights Reserved
+    <>
+      <footer className="pt-5 pb-0 mb-0 mt-5">
+        <p className="text-center text-black-50">
+          inspired by the tech comunity of twitter | daily.dev | github | Viktor
+          Ilie &copy; 2024 | All Rights Reserved
         </p>
       </footer>
-    </div>
+    </>
   );
 };
 
