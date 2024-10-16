@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://viktorilie.github.io/PortfolioRedesign/",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
